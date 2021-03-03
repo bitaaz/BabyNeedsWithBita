@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+    >
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_image_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/item_name_list"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:text="@string/item_name"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/item_quantity_list"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:text="@string/quantity"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/item_color_list"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:text="@string/color"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/item_size_list"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:text="@string/size"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/date_created_list"
+            android:text="@string/date_created"
+            android:layout_marginEnd="230dp"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TableRow
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_share"
+                    android:tint="@android:color/holo_red_dark"
+                    android:background="@android:color/transparent"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+
+
+                <Button
+
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/edit_button"
+                    android:background="@android:drawable/ic_menu_edit"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+
+                <Button
+                    android:id="@+id/delete_button"
+                    android:layout_marginStart="20dp"
+                    android:background="@android:drawable/ic_menu_delete"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+
+
+
+
+
+
+
+
+
+            </TableRow>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230325350881",
+    "project_id": "babyneedswithbita",
+    "storage_bucket": "babyneedswithbita.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230325350881:android:1a34800dc7ee4c7bb9a2a0",
+        "android_client_info": {
+          "package_name": "com.example.babyneedswithbita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230325350881-a3d5t7t71ie2v4in9jbkvmcdaq4f4q1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR_ItPgiNYvLCoTTp0JqZpJ2not8yIa74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230325350881-a3d5t7t71ie2v4in9jbkvmcdaq4f4q1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
